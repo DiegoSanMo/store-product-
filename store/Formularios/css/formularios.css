@@ -1,0 +1,39 @@
+/******************************************** ESTILO DE FORMULARIOS****************************************************************/
+html
+{
+    font-size: 16px;
+    font-family: 'BioRhyme', serif;
+}
+
+body
+{
+    background-color: rgb(223, 223, 213);
+
+}
+.container-formulario
+{
+    max-width: 100%;
+    height: auto;
+    background-color: rgb(245, 166, 31);
+    margin: 5% auto;
+    padding-bottom: 1rem;
+}
+
+.form_top
+{
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0 1rem;
+    border-top: solid .4rem rgb(171, 59, 181);
+    margin-bottom: 1rem;
+}
+.form_top h2
+{
+    font-weight: bold;
+    color: rgb(104, 184, 8);
+    font-size: 18px;
+}
+h2 span
+{
+    color: #28ed89;
+}

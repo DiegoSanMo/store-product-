@@ -6,15 +6,8 @@
         <link rel="stylesheet" href="css/master.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src= 'js/script.js'>   </script>
-        <?php
 
-        require_once("connection/conexion.php");
-        $consulta = "Select * from tbl_categorias";
-        $res = msql_query($consulta, $conexion);
-        $cant = mysql_num_rows($res);
-
-         ?>
-
+        
         </script>
     </head>
     <body>
@@ -42,12 +35,7 @@
         <section class="body">
             <h1>Hola</h1>
             <ul>
-                <?php
-                    while ($fila = mysql_fetch_array($res))
-                    {
-                        echo "<li>$fila["nombre"]</li>";
-                    }
-                 ?>
+
 
             </ul>
         </section>

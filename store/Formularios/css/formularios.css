@@ -31,7 +31,7 @@ body
 {
     font-weight: bold;
     color: #F4F4F9;
-    font-size: 18px;
+    font-size: 25px;
 }
 h2 span
 {
@@ -44,6 +44,14 @@ h2 span
     flex-direction: column;
     justify-content: center;
 }
+
+.lblInput
+{
+    margin: .5rem 7rem .5rem;
+    border: none;
+    transition: all .5s;
+    justify-content: space-around;
+}
 .btnForm
 {
     display: flex;
@@ -54,11 +62,12 @@ h2 span
 .input, .btn_submit
 {
     background-color: #F4F4F9;
-    padding: .5rem;
-    margin: .5rem 0;
+    padding: .5rem 2rem;
+    margin: .5rem 7rem .5rem;
     border: none;
     border-bottom: solid  #B8DBD9 .2rem;
     transition: all .5s;
+    justify-content: space-around;
 }
 .inpt:focus
 {

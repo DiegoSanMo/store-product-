@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="css/formularios.css">
+        <link rel="stylesheet" href="../css/master.css">
         <link href="https://fonts.googleapis.com/css?family=BioRhyme" rel="stylesheet">
 
         <title>Categorias</title>

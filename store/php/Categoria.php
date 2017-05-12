@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
@@ -12,15 +11,16 @@
             <div class="form_top">
                 <h2>Registro <span>Categoria</span></h2>
             </div>
-            <form class="form_reg" action="">
+            <form class="form_reg" action="GrabarCategoria.php" method="post">
                 <label class="lblInput">ID Categoria</label>
-                <input class="input" type="idCategoria" readonly="">
+                <input class="input" type="idCategoria" text="$ids" readonly="">
                 <label class="lblInput">Nombre</label>
-                <input class="input" style="text-transform:uppercase" type="nombre" placeholder="&#128213; Categoria" required autofocus >
+                <input class="input" style="text-transform:uppercase" name="nom" type="nombre" placeholder="&#128213; Categoria" required autofocus >
                 <div class="btnForm">
                     <input class="btn_submit" type="submit" value="Registro de categoria">
                 </div>
             </form>
         </div>
+
     </body>
 </html>

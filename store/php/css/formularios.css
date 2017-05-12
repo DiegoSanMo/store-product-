@@ -1,0 +1,87 @@
+/******************************************** ESTILO DE FORMULARIOS****************************************************************/
+html
+{
+    font-size: 16px;
+    font-family: 'BioRhyme', serif;
+}
+
+body
+{
+    background-color: #F4F4F9;
+
+}
+.container-formulario
+{
+    max-width: 450px;
+    height: auto;
+    background-color: #586F7C;
+    margin: 5% auto;
+    padding-bottom: 1rem;
+}
+
+.form_top
+{
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0 1rem;
+    border-top: solid .4rem #B8DBD9;
+    margin-bottom: 1rem;
+}
+.form_top h2
+{
+    font-weight: bold;
+    color: #F4F4F9;
+    font-size: 25px;
+}
+h2 span
+{
+    color: #28ed89;
+}
+.from_reg
+{
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lblInput
+{
+    margin: .5rem 7rem .5rem;
+    border: none;
+    transition: all .5s;
+    justify-content: space-around;
+}
+.btnForm
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.input, .btn_submit
+{
+    background-color: #F4F4F9;
+    padding: .5rem 2rem;
+    margin: .5rem 7rem .5rem;
+    border: none;
+    border-bottom: solid  #B8DBD9 .2rem;
+    transition: all .5s;
+    justify-content: space-around;
+}
+.inpt:focus
+{
+    border-top: #000000 .2rem;
+}
+
+.btn_submit
+{
+    width: 40%;
+    border-bottom: none;
+    background-color: #2F4550;
+    color: white;
+}
+.btn_submit:hover
+{
+    background-color: #000000;
+}

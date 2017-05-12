@@ -14,7 +14,7 @@
             </div>
             <form class="form_reg" action="">
                 <label class="lblInput">ID Categoria</label>
-                <input class="input" type="idCategoria">
+                <input class="input" type="idCategoria" readonly="">
                 <label class="lblInput">Nombre</label>
                 <input class="input" style="text-transform:uppercase" type="nombre" placeholder="&#128213; Categoria" required autofocus >
                 <div class="btnForm">

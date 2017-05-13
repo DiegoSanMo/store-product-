@@ -24,8 +24,6 @@ $(document).ready(function(){
 					$("header").css({"background-color": "transparent"});
 					flag = false;
 			}
-
-
         }
     });
 

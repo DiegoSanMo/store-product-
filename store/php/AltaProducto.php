@@ -37,7 +37,11 @@
                 <label class="lblInput">Descripcion</label>
                 <input class="input" type="text" name = "descripcion" placeholder="&#128213;descripcion producto">
                 <label class="lblInput">Imagen</label>
-                <input type="file" name = "buscarImagen" value="file1"/>
+                <div class="searchImage">
+                    <p id="texto">Add file</p>
+                    <input class="buscarImagen"type="file" name = "buscarImagen" value="file1"/>
+                </div>
+
                 <div class="btnForm">
                     <input class="btn_submit" type="submit" value="Registro del producto">
                 </div>

@@ -24,19 +24,20 @@
                         $valores = "SELECT * from Category";
                         $lector = mysql_query($valores);
                         while ($row = mysql_fetch_array($lector)) {
-                            echo "<option value= '".$lector['id_Category']."'>";
+                            echo "<option value= '".$row['id_Category']."'>";
                             echo $row['description'];
                             echo "</option>";
                         }
                      ?>
                 </select>
                 <label class="lblInput">Nombre</label>
-                <input class="input" type="idCategoria" name = "nombre" placeholder="&#128213;nombre producto" >
+                <input class="input" type="text" name = "nombre" placeholder="&#128213;nombre producto" >
                 <label class="lblInput">Precio</label>
-                <input class="input" type="idCategoria" name = "precio" placeholder="&#128213;precio producto" >
+                <input class="input" type="text" name = "precio" placeholder="&#128213;precio producto" >
                 <label class="lblInput">Descripcion</label>
-                <input class="input" type="idCategoria" name = "descripcion" placeholder="&#128213;descripcion producto">
-
+                <input class="input" type="text" name = "descripcion" placeholder="&#128213;descripcion producto">
+                <label class="lblInput">Imagen</label>
+                <input type="file" name = "buscarImagen" value="file1"/>
                 <div class="btnForm">
                     <input class="btn_submit" type="submit" value="Registro del producto">
                 </div>

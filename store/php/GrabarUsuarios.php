@@ -1,7 +1,10 @@
 <?php
     $conection = mysql_connect("localhost", "root");
     mysql_select_db("dbostoreproducts", $conection);
-    $nom = $_POST['nom'];
+    $user = $_POST['usuario'];
+    $name = $_POST['nom'];
     $pass = $_POST['pass'];
-    $result = mysql_query("INSERT INTO `Users` (`user`,`password`)VALUES ('$nom','$pass')", $conection);
+    $num = $_POST['num'];
+    $mail = $_POST['email'];
+    $result = mysql_query("INSERT INTO `Users` VALUES ('$user','$pass','$name','$num','$mail')", $conection);
  ?>
